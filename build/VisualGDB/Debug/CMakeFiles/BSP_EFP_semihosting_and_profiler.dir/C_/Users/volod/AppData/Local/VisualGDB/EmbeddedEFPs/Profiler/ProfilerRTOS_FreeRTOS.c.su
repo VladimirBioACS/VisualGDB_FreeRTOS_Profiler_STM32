@@ -1,0 +1,11 @@
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:20:39:SysprogsRTOSHooks_ReportThreadSwitch	8	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:30:32:SysprogsRTOSHooks_FreeRTOS_vTaskSwitchContext	8	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:41:39:SysprogsRTOSHooks_FreeRTOS_SVC_Handler	0	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:54:32:SysprogsRTOSHooks_FreeRTOS_vTaskDelete	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:62:32:SysprogsRTOSHooks_FreeRTOS_SysTick_Handler	8	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:94:49:SysprogsRTOSHooks_FreeRTOS_traceQUEUE_SEND	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:99:49:SysprogsRTOSHooks_FreeRTOS_traceQUEUE_RECEIVE	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:104:49:SysprogsRTOSHooks_FreeRTOS_SchedulerStarting	8	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:110:32:SysprogsRTOSHooks_FreeRTOS_traceQUEUE_SEND_Actual	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:125:32:SysprogsRTOSHooks_FreeRTOS_traceQUEUE_RECEIVE_Actual	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c:140:6:InitializeProfilerRTOSHooks	16	static

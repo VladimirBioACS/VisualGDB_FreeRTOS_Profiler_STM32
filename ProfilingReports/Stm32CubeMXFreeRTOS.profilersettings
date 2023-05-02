@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<SysprogsProfilerSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Embedded>
+    <Sampling>
+      <SamplingRate>0</SamplingRate>
+      <StartImmediately>false</StartImmediately>
+    </Sampling>
+    <Instrumentation>
+      <InstrumentNewFunctions>true</InstrumentNewFunctions>
+      <ExplicitEndOfFLASH>134545408</ExplicitEndOfFLASH>
+      <ExplicitEndOfRAM>0</ExplicitEndOfRAM>
+      <ReportingThreshold>0</ReportingThreshold>
+    </Instrumentation>
+    <Mode>Instrumentation</Mode>
+  </Embedded>
+  <SessionFileDirectory>C:\projects\Stm32CubeMXFreeRTOS\ProfilingReports\Stm32CubeMXFreeRTOS</SessionFileDirectory>
+  <SessionName>02.05.2023 12:57:51</SessionName>
+</SysprogsProfilerSettings>
