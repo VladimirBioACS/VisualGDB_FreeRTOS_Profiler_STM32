@@ -214,6 +214,26 @@ unsigned long getRunTimeCounterValue(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
+/*
+ *You will see that real-time watch window will be empty. 
+ *This happens because the default implementation of the 
+ *instrumenting profiler and real-time watch relies on the 
+ *debug cycle count register (DWT_CYCCNT) that is not supported 
+ *on STM32F7 and is hence always zero
+ *
+ *The StartDelayCountingTimer() function will configure TIM3 
+ *to run at half the system clock speed. 
+ *As the hardware counter is only 16 bits wide, 
+ *the TIM3_IRQHandler() function will increase 
+ *the g_TimerCounter value each time an overflow happens 
+ *to keep the track of the global time. 
+ *The SysprogsInstrumentingProfiler_ReadTimerValue() 
+ *function will read the TIM3 counter value and combine 
+ *it with the g_TimerCounter to get a 48-bit value. 
+ *Finally SysprogsInstrumentingProfiler_QueryAndResetPerformanceCounter() 
+ *called by the profiler will return the amount of ticks passed since the last call to it.
+ **/
+
 static TIM_HandleTypeDef s_TimerInstance = { 
     .Instance = TIM3
 };
@@ -339,6 +359,8 @@ int main(void)
 	/* USER CODE BEGIN RTOS_MUTEX */
 #if (SYSPROG_PROFILER == 1)
 	InitializeInstrumentingProfiler();
+	
+	/*call StartDelayCountingTimer() after InitializeInstrumentingProfiler()*/
 	StartDelayCountingTimer();
 
 #endif
