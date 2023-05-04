@@ -1,0 +1,12 @@
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/DebuggerChecker.h:5:13:bool CanInvokeSemihostingCalls()	4	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:72:6:void InitializeFastSemihosting()	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:93:12:int GetFastSemihostingFreeBufferSize()	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:102:12:int WriteRawFastSemihostingData(const void*, int, int)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:198:5:int WriteToFastSemihostingChannel(unsigned char, const void*, int, int)	56	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:257:5:int _isatty()	4	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:275:5:int _write(int, char*, int)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:297:25:int SysprogsProfiler_WriteData(ProfilerDataChannel, const void*, unsigned int, const void*, unsigned int)	40	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:332:5:int SysprogsProfiler_GetBufferAvailability(unsigned int)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:341:32:void SuspendFastSemihostingPolling()	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:350:32:void ResumeFastSemihostingPolling()	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp:361:6:void RequestBlockingProcessingViaFastSemihosting()	4	static

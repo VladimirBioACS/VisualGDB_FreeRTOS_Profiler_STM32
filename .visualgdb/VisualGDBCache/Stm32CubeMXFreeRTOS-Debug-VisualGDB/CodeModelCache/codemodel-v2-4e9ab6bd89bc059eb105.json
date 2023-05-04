@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "DEBUG",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Stm32CubeMXFreeRTOS",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BSP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BSP-DEBUG-cf6b39e86ceed1e5fcfb.json",
+					"name" : "BSP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BSP_EFP_Profiler::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BSP_EFP_Profiler-DEBUG-f2db6ecb0afe0f70ff19.json",
+					"name" : "BSP_EFP_Profiler",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stm32CubeMXFreeRTOS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stm32CubeMXFreeRTOS-DEBUG-4ee3e5d244d6d956f721.json",
+					"name" : "Stm32CubeMXFreeRTOS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stm32CubeMXFreeRTOS-bin::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stm32CubeMXFreeRTOS-bin-DEBUG-601739a84b5ba4d63742.json",
+					"name" : "Stm32CubeMXFreeRTOS-bin",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/projects/Stm32CubeMXFreeRTOS/build/VisualGDB/Debug",
+		"source" : "C:/projects/Stm32CubeMXFreeRTOS"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

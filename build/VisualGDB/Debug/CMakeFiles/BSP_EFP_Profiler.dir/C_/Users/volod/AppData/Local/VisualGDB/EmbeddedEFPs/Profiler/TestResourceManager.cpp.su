@@ -1,0 +1,22 @@
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:46:13:void RunBlockingFastSemihostingCall(BlockingResourceRequest, unsigned int, unsigned int, unsigned int)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:67:10:uint64_t TRMGetHostSystemTime()	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:73:15:tagTRMFileHandle* TRMCreateFile(const char*, SemihostingFileMode)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:79:6:void TRMCloseFile(TRMFileHandle)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:84:9:ssize_t TRMReadFile(TRMFileHandle, void*, size_t)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:90:9:ssize_t TRMWriteFile(TRMFileHandle, const void*, size_t)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:96:9:ssize_t TRMReadStdin(void*, size_t, int)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:102:10:uint64_t TRMGetFileSize(TRMFileHandle)	40	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:108:10:uint64_t TRMSeekFile(TRMFileHandle, int, int64_t)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:114:6:void TRMTruncateFile(TRMFileHandle)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:119:14:TRMErrorCode TRMDeleteFile(const char*)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:125:14:TRMErrorCode TRMCreateDirectory(const char*)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:131:14:TRMErrorCode TRMDeleteDirectory(const char*, int)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:144:20:tagTRMReadBurstHandle* TRMBeginReadBurst(TRMFileHandle, void*, size_t)	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:165:14:TRMErrorCode TRMEndReadBurst(TRMReadBurstHandle)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:178:7:void* TRMBeginReadFileCached(TRMReadBurstHandle, size_t*, int)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:216:14:TRMErrorCode TRMEndReadFileCached(TRMReadBurstHandle, void*, size_t)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:244:9:ssize_t TRMReadFileCached(TRMReadBurstHandle, void*, size_t, int)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:274:21:tagTRMWriteBurstHandle* TRMBeginWriteBurst(TRMFileHandle)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:280:14:TRMErrorCode TRMEndWriteBurst(TRMWriteBurstHandle)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:286:9:ssize_t TRMWriteFileCached(TRMWriteBurstHandle, const void*, size_t)	40	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp:300:16:int _read(int, char*, int)	24	static

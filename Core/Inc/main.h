@@ -94,7 +94,7 @@ extern "C" {
 #define TCK_GPIO_Port GPIOA
 #define LD2_Pin GPIO_PIN_7
 #define LD2_GPIO_Port GPIOB
-
+ 
 	/* USER CODE BEGIN Private defines */
 #define FREERTOS_PROFILER  (0)
 #define SWO_DEBUG  		   (0)

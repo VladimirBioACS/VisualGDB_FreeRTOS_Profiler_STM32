@@ -1,0 +1,53 @@
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/DebuggerChecker.h:5:13:bool CanInvokeSemihostingCalls()	4	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:13:20:static int SysprogsInstrumentingProfiler::SmallNumberCoder::IsSignedIntConstrained(int, int)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:20:20:static int SysprogsInstrumentingProfiler::SmallNumberCoder::IsUnsignedIntConstrained(unsigned int, int)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:26:14:bool SysprogsInstrumentingProfiler::SmallNumberCoder::WriteSmallInteger(int, int)	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:56:2:SysprogsInstrumentingProfiler::SmallNumberCoder::SmallNumberCoder(void*, unsigned int, void*, void*)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:132:14:bool SysprogsInstrumentingProfiler::SmallNumberCoder::WriteSmallUnsignedInt(unsigned int)	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:153:14:bool SysprogsInstrumentingProfiler::SmallNumberCoder::WriteSmallUnsignedIntWithFlag(unsigned int, bool)	40	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:174:14:bool SysprogsInstrumentingProfiler::SmallNumberCoder::WriteSmallSignedIntWithFlag(int, bool)	40	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:195:14:bool SysprogsInstrumentingProfiler::SmallNumberCoder::WritePackedUIntPair(short unsigned int, short unsigned int)	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:243:6:int SysprogsInstrumentingProfiler::SmallNumberCoder::GetOffset()	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:248:8:void* SysprogsInstrumentingProfiler::SmallNumberCoder::GetBuffer()	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:259:7:void SysprogsInstrumentingProfiler::SmallNumberCoder::SetOffset(int)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/SmallNumberCoder.h:264:11:unsigned int SysprogsInstrumentingProfiler::SmallNumberCoder::RemainingSize()	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:143:4:SysprogsInstrumentingProfiler::Chronometer::ProfilerTimeRegionRAII::ProfilerTimeRegionRAII()	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:151:4:SysprogsInstrumentingProfiler::Chronometer::ProfilerTimeRegionRAII::~ProfilerTimeRegionRAII()	56	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:162:21:ProfilerTimeType SysprogsInstrumentingProfiler::Chronometer::ProfilerTimeRegionRAII::GetApplicationTime()	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:167:28:static ProfilerTimeType SysprogsInstrumentingProfiler::Chronometer::ProfilerTimeRegionRAII::GetCurrentTimeForRealTimeWatch()	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:210:8:bool SysprogsInstrumentingProfiler::InstrumentedFrame::IsInterrupt() const	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:215:8:bool SysprogsInstrumentingProfiler::InstrumentedFrame::IsReported() const	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:220:8:void SysprogsInstrumentingProfiler::InstrumentedFrame::FlagAsReported() const	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:232:18:unsigned int SysprogsInstrumentingProfiler::ProfilerTimeToUInt32(ProfilerTimeType)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:252:33:void SysprogsInstrumentingProfiler::RaiseError(SysprogsInstrumentingProfiler::InstrumentingProfilerErrorCode, uintptr_t)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:274:22:SysprogsInstrumentingProfiler::InstrumentedFrame* SysprogsInstrumentingProfiler::InstrumentedFramePool::AllocateFrame()	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:292:8:void SysprogsInstrumentingProfiler::InstrumentedFramePool::ReleaseFrame(SysprogsInstrumentingProfiler::InstrumentedFrame*)	16	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:303:33:void SysprogsInstrumentingProfiler::ReportFramesToProfiler(const SysprogsInstrumentingProfiler::InstrumentedFrame*, ProfilerTimeType)	80	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:392:33:void SysprogsInstrumentingProfiler::ReportFunctionRunTimeToRealTimeWatch(const SysprogsInstrumentingProfiler::InstrumentedFrame*, ProfilerTimeType)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:404:37:void SysprogsInstrumentingProfiler::ReturnHook()	0	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:434:7:void SysprogsInstrumentingProfiler::SysprogsInstrumentingProfilerReturnHookImpl(void**)	64	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:480:7:void SysprogsInstrumentingProfiler::SysprogsInstrumentingProfilerHookImpl(void**)	72	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:521:7:void SysprogsInstrumentingProfiler::ReportThreadCreated(void*, const char*)	40	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:535:13:int SysprogsInstrumentingProfiler::GetRelativeTimestamp()	24	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:543:7:void SysprogsInstrumentingProfiler::ReportThreadSwitch(void*)	40	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:605:40:void SysprogsInstrumentingProfilerHook()	0	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:639:40:void SysprogsStackVerifierHook()	0	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:664:40:void SysprogsTimingRecorderHook()	0	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:709:57:void OverheadMeasurementFunctions::NonInstrumented()	0	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:714:57:void OverheadMeasurementFunctions::Instrumented()	0	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:719:57:void OverheadMeasurementFunctions::InstrumentedAndReporting()	0	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:732:43:void InstrumentingProfilerInitialized(int)	40	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:759:6:void SysprogsProfiler_RTOSThreadSwitched(void*, const char*, void*)	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:794:6:void SysprogsProfiler_RTOSThreadDeleted(void*)	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:810:6:void SysprogsProfiler_ReportResourceTaken(void*, void*, unsigned int)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:819:6:void SysprogsProfiler_ReportResourceReleased(void*, void*, unsigned int)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:828:6:void SysprogsProfiler_ReportIntegralValue(void*, unsigned int, int)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:837:6:void SysprogsProfiler_ReportFPValue(void*, double)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:846:6:void SysprogsProfiler_ReportGenericEvent(void*, const char*)	40	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:856:6:void SysprogsProfiler_ReportGenericEventEx(void*, void*, RealTimeEventArgType, int)	48	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:865:39:void InitializeProfilerRTOSHooks()	4	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:869:39:void InitializeProfilerRTOSHooksAfterReportingInitialization()	4	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:872:43:void InitializeInstrumentingProfiler()	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:919:17:void ReportTicksPerSecond(unsigned int)	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:927:39:void ReportRealTimeAnalysisBufferOverflow()	32	static
+C:/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp:943:17:void InitializeCustomRealTimeWatch()	24	static

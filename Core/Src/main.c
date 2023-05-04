@@ -25,7 +25,7 @@
 #include "string.h"
 #include "stdlib.h"
 #include "stdio.h"
-#include "stdbool.h"
+#include "stdbool.h" 
 /* USER CODE END Includes */
 #if (SYSPROG_PROFILER == 1)
 #include <SysprogsProfiler.h>
@@ -213,6 +213,65 @@ unsigned long getRunTimeCounterValue(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+static TIM_HandleTypeDef s_TimerInstance = { 
+    .Instance = TIM3
+};
+ 
+static unsigned g_TimerCounter;
+ 
+extern void TIM3_IRQHandler()
+{
+    HAL_TIM_IRQHandler(&s_TimerInstance);
+    g_TimerCounter++;
+}
+ 
+void StartDelayCountingTimer()
+{
+    __TIM3_CLK_ENABLE();
+    s_TimerInstance.Init.Prescaler = 1;
+    s_TimerInstance.Init.CounterMode = TIM_COUNTERMODE_UP;
+    s_TimerInstance.Init.Period = 0xFFFF;
+    s_TimerInstance.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+    s_TimerInstance.Init.RepetitionCounter = 0;
+    HAL_TIM_Base_Init(&s_TimerInstance);
+    HAL_TIM_Base_Start_IT(&s_TimerInstance);
+    HAL_NVIC_EnableIRQ(TIM3_IRQn);
+    HAL_NVIC_SetPriority(TIM3_IRQn, 7, 0);
+}
+ 
+unsigned long long SysprogsInstrumentingProfiler_ReadTimerValue()
+{
+    int primask = __get_PRIMASK();
+    __set_PRIMASK(1);
+    unsigned lowWord = __HAL_TIM_GET_COUNTER(&s_TimerInstance);
+    unsigned highWord;
+    if (lowWord < 1024)
+    {
+        highWord = g_TimerCounter;
+        if (HAL_NVIC_GetPendingIRQ(TIM3_IRQn))
+            highWord++;    
+    }
+    else
+        highWord = g_TimerCounter;
+    __set_PRIMASK(primask);
+        
+    return (((unsigned long long)highWord) << 16) | lowWord;
+}
+ 
+extern unsigned SysprogsInstrumentingProfiler_QueryAndResetPerformanceCounter()
+{
+    static unsigned long long s_PrevValue;
+    unsigned long long value = SysprogsInstrumentingProfiler_ReadTimerValue();
+    unsigned long long elapsed = value - s_PrevValue;
+    s_PrevValue = value;
+    if (elapsed > UINT32_MAX)
+        return UINT32_MAX;
+    else
+        return (unsigned)elapsed;
+}
+
+
 #if (SWO_DEBUG == 1)
 
 /* Override low-level _write system call */
@@ -280,6 +339,8 @@ int main(void)
 	/* USER CODE BEGIN RTOS_MUTEX */
 #if (SYSPROG_PROFILER == 1)
 	InitializeInstrumentingProfiler();
+	StartDelayCountingTimer();
+
 #endif
 	/* USER CODE END RTOS_MUTEX */
 

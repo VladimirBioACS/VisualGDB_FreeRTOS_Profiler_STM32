@@ -17,6 +17,9 @@
 //Specifies the BSP alias for the BSP target.
 BSP_BSP_ALIAS:STRING=BSP
 
+//Specifies the BSP alias for the BSP_EFP_Profiler target.
+BSP_EFP_Profiler_BSP_ALIAS:STRING=BSP
+
 //Specifies the BSP alias for the BSP_EFP_semihosting_and_profiler
 // target.
 BSP_EFP_semihosting_and_profiler_BSP_ALIAS:STRING=BSP
@@ -265,6 +268,9 @@ TOOLCHAIN_ROOT:UNINITIALIZED=C:/SysGCC/arm-eabi
 # INTERNAL cache entries
 ########################
 
+BSP_EFP_Profiler_FRAMEWORK_CAPTION:INTERNAL=Fast Semihosting and Embedded Profiler
+BSP_EFP_Profiler_FRAMEWORK_ID:INTERNAL=com.sysprogs.embedded.semihosting_and_profiler
+BSP_EFP_Profiler_FRAMEWORK_TYPE:INTERNAL=EFP
 BSP_EFP_semihosting_and_profiler_FRAMEWORK_CAPTION:INTERNAL=Fast Semihosting and Embedded Profiler
 BSP_EFP_semihosting_and_profiler_FRAMEWORK_ID:INTERNAL=com.sysprogs.embedded.semihosting_and_profiler
 BSP_EFP_semihosting_and_profiler_FRAMEWORK_TYPE:INTERNAL=EFP
