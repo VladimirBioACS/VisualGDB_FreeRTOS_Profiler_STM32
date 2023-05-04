@@ -233,7 +233,7 @@ unsigned long getRunTimeCounterValue(void);
  *Finally SysprogsInstrumentingProfiler_QueryAndResetPerformanceCounter() 
  *called by the profiler will return the amount of ticks passed since the last call to it.
  **/
-
+#if (STM32_F7_TIMER_SRC == 1)
 static TIM_HandleTypeDef s_TimerInstance = { 
     .Instance = TIM3
 };
@@ -290,7 +290,7 @@ extern unsigned SysprogsInstrumentingProfiler_QueryAndResetPerformanceCounter()
     else
         return (unsigned)elapsed;
 }
-
+#endif
 
 #if (SWO_DEBUG == 1)
 
@@ -361,7 +361,9 @@ int main(void)
 	InitializeInstrumentingProfiler();
 	
 	/*call StartDelayCountingTimer() after InitializeInstrumentingProfiler()*/
+#if (STM32_F7_TIMER_SRC == 1)
 	StartDelayCountingTimer();
+#endif
 
 #endif
 	/* USER CODE END RTOS_MUTEX */

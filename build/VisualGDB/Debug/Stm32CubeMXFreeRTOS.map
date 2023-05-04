@@ -376,7 +376,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x256 CMakeFiles/BSP.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0xba CMakeFiles/BSP.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x15b CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00000000       0xe8 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00000000       0xee CMakeFiles/BSP.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x15a CMakeFiles/BSP.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0xc9 CMakeFiles/BSP.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x1c CMakeFiles/BSP.dir/Core/Src/main.c.obj
@@ -510,7 +510,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x256 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
  .debug_macro   0x00000000       0xba CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
  .debug_macro   0x00000000      0x15b CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
- .debug_macro   0x00000000       0xe8 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+ .debug_macro   0x00000000       0xee CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
  .group         0x00000000        0xc CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
  .group         0x00000000        0xc CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
  .group         0x00000000        0xc CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
@@ -726,7 +726,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x256 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
  .debug_macro   0x00000000       0xba CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
  .debug_macro   0x00000000      0x15b CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
- .debug_macro   0x00000000       0xe8 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
+ .debug_macro   0x00000000       0xee CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
  .group         0x00000000        0xc CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
  .group         0x00000000        0xc CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
  .group         0x00000000        0xc CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
@@ -8578,77 +8578,77 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none
 LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a
 LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\libgcc.a
 
-.debug_info     0x00000000    0x254f5
+.debug_info     0x00000000    0x254fb
  .debug_info    0x00000000       0xa6 CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
- .debug_info    0x000000a6     0x32ad CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_info    0x00003353     0x1ce7 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
- .debug_info    0x0000503a      0xcce CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
- .debug_info    0x00005d08      0x79a CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
- .debug_info    0x000064a2      0x688 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00006b2a      0x15f CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
- .debug_info    0x00006c89      0x72c CMakeFiles/BSP.dir/Core/Src/system_stm32f7xx.c.obj
- .debug_info    0x000073b5       0x22 CMakeFiles/BSP.dir/Core/Startup/startup_stm32f767zitx.s.obj
- .debug_info    0x000073d7      0xb5d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_info    0x00007f34      0x2d1 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_info    0x00008205     0x1af8 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_info    0x00009cfd     0x2b76 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_info    0x0000c873     0x1b78 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
- .debug_info    0x0000e3eb     0x3ccc CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_info    0x000120b7      0x4b4 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c.obj
- .debug_info    0x0001256b      0x3c6 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_info    0x00012931      0xa2f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
- .debug_info    0x00013360      0xcbe CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
- .debug_info    0x0001401e     0x109c CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
- .debug_info    0x000150ba      0x7a2 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
- .debug_info    0x0001585c     0x130d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
- .debug_info    0x00016b69      0x7df CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
- .debug_info    0x00017348      0x978 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
- .debug_info    0x00017cc0      0x9b3 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
- .debug_info    0x00018673      0x77f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
- .debug_info    0x00018df2     0x2ca2 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
- .debug_info    0x0001ba94     0x16d1 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
- .debug_info    0x0001d165     0x3c56 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
- .debug_info    0x00020dbb     0x1b53 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
- .debug_info    0x0002290e      0x5d0 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
- .debug_info    0x00022ede     0x194b CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp.obj
- .debug_info    0x00024829      0x9d5 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
- .debug_info    0x000251fe      0x2f7 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
+ .debug_info    0x000000a6     0x32b3 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_info    0x00003359     0x1ce7 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+ .debug_info    0x00005040      0xcce CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
+ .debug_info    0x00005d0e      0x79a CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
+ .debug_info    0x000064a8      0x688 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x00006b30      0x15f CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x00006c8f      0x72c CMakeFiles/BSP.dir/Core/Src/system_stm32f7xx.c.obj
+ .debug_info    0x000073bb       0x22 CMakeFiles/BSP.dir/Core/Startup/startup_stm32f767zitx.s.obj
+ .debug_info    0x000073dd      0xb5d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_info    0x00007f3a      0x2d1 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_info    0x0000820b     0x1af8 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_info    0x00009d03     0x2b76 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_info    0x0000c879     0x1b78 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_info    0x0000e3f1     0x3ccc CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_info    0x000120bd      0x4b4 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c.obj
+ .debug_info    0x00012571      0x3c6 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_info    0x00012937      0xa2f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+ .debug_info    0x00013366      0xcbe CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+ .debug_info    0x00014024     0x109c CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+ .debug_info    0x000150c0      0x7a2 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+ .debug_info    0x00015862     0x130d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
+ .debug_info    0x00016b6f      0x7df CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
+ .debug_info    0x0001734e      0x978 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+ .debug_info    0x00017cc6      0x9b3 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+ .debug_info    0x00018679      0x77f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+ .debug_info    0x00018df8     0x2ca2 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+ .debug_info    0x0001ba9a     0x16d1 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+ .debug_info    0x0001d16b     0x3c56 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+ .debug_info    0x00020dc1     0x1b53 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
+ .debug_info    0x00022914      0x5d0 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_info    0x00022ee4     0x194b CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp.obj
+ .debug_info    0x0002482f      0x9d5 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
+ .debug_info    0x00025204      0x2f7 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
 
-.debug_abbrev   0x00000000     0x4b00
+.debug_abbrev   0x00000000     0x4ae4
  .debug_abbrev  0x00000000       0x63 CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
- .debug_abbrev  0x00000063      0x416 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000479      0x220 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
- .debug_abbrev  0x00000699      0x1a5 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
- .debug_abbrev  0x0000083e      0x15c CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
- .debug_abbrev  0x0000099a      0x180 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x00000b1a       0xa6 CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
- .debug_abbrev  0x00000bc0      0x136 CMakeFiles/BSP.dir/Core/Src/system_stm32f7xx.c.obj
- .debug_abbrev  0x00000cf6       0x12 CMakeFiles/BSP.dir/Core/Startup/startup_stm32f767zitx.s.obj
- .debug_abbrev  0x00000d08      0x26d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_abbrev  0x00000f75       0xf2 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_abbrev  0x00001067      0x307 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_abbrev  0x0000136e      0x3c5 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_abbrev  0x00001733      0x322 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
- .debug_abbrev  0x00001a55      0x423 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_abbrev  0x00001e78      0x247 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c.obj
- .debug_abbrev  0x000020bf      0x1d7 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_abbrev  0x00002296      0x1da CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
- .debug_abbrev  0x00002470      0x203 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
- .debug_abbrev  0x00002673      0x316 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
- .debug_abbrev  0x00002989      0x1c4 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
- .debug_abbrev  0x00002b4d      0x273 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
- .debug_abbrev  0x00002dc0      0x1bd CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
- .debug_abbrev  0x00002f7d      0x1b8 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
- .debug_abbrev  0x00003135      0x289 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
- .debug_abbrev  0x000033be      0x1a4 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00003562      0x238 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
- .debug_abbrev  0x0000379a      0x240 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
- .debug_abbrev  0x000039da      0x28d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
- .debug_abbrev  0x00003c67      0x25c CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
- .debug_abbrev  0x00003ec3      0x2a3 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
- .debug_abbrev  0x00004166      0x5ca CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp.obj
- .debug_abbrev  0x00004730      0x22b CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
- .debug_abbrev  0x0000495b      0x1a5 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
+ .debug_abbrev  0x00000063      0x3fa CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x0000045d      0x220 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+ .debug_abbrev  0x0000067d      0x1a5 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
+ .debug_abbrev  0x00000822      0x15c CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
+ .debug_abbrev  0x0000097e      0x180 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x00000afe       0xa6 CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x00000ba4      0x136 CMakeFiles/BSP.dir/Core/Src/system_stm32f7xx.c.obj
+ .debug_abbrev  0x00000cda       0x12 CMakeFiles/BSP.dir/Core/Startup/startup_stm32f767zitx.s.obj
+ .debug_abbrev  0x00000cec      0x26d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_abbrev  0x00000f59       0xf2 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_abbrev  0x0000104b      0x307 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_abbrev  0x00001352      0x3c5 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_abbrev  0x00001717      0x322 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_abbrev  0x00001a39      0x423 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_abbrev  0x00001e5c      0x247 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c.obj
+ .debug_abbrev  0x000020a3      0x1d7 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_abbrev  0x0000227a      0x1da CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+ .debug_abbrev  0x00002454      0x203 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+ .debug_abbrev  0x00002657      0x316 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+ .debug_abbrev  0x0000296d      0x1c4 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+ .debug_abbrev  0x00002b31      0x273 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
+ .debug_abbrev  0x00002da4      0x1bd CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
+ .debug_abbrev  0x00002f61      0x1b8 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+ .debug_abbrev  0x00003119      0x289 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+ .debug_abbrev  0x000033a2      0x1a4 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x00003546      0x238 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+ .debug_abbrev  0x0000377e      0x240 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x000039be      0x28d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+ .debug_abbrev  0x00003c4b      0x25c CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
+ .debug_abbrev  0x00003ea7      0x2a3 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_abbrev  0x0000414a      0x5ca CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp.obj
+ .debug_abbrev  0x00004714      0x22b CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
+ .debug_abbrev  0x0000493f      0x1a5 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
 
 .debug_aranges  0x00000000     0x1e58
  .debug_aranges
@@ -8756,7 +8756,7 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\
  .debug_ranges  0x00001b50       0xd0 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
  .debug_ranges  0x00001c20       0x68 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
 
-.debug_macro    0x00000000    0x2e0a9
+.debug_macro    0x00000000    0x2e0af
  .debug_macro   0x00000000      0x32a CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
  .debug_macro   0x0000032a      0xac6 CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
  .debug_macro   0x00000df0       0x1c CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
@@ -8829,98 +8829,98 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\
  .debug_macro   0x00026a6d      0x256 CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
  .debug_macro   0x00026cc3       0xba CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
  .debug_macro   0x00026d7d      0x15b CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
- .debug_macro   0x00026ed8       0xe8 CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
- .debug_macro   0x00026fc0      0x4b4 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027474      0x158 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x000275cc       0x66 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027632       0x74 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x000276a6       0xdd CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027783      0x341 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027ac4       0x10 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027ad4       0x16 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027aea       0x16 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027b00       0x29 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027b29       0x1c CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027b45       0x10 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027b55       0x10 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027b65       0x1c CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027b81       0x52 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027bd3       0x22 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027bf5       0x10 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027c05       0x52 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027c57       0xd5 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027d2c       0x1c CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027d48       0x3d CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027d85       0x16 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027d9b      0x16f CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027f0a       0x22 CMakeFiles/BSP.dir/Core/Src/main.c.obj
- .debug_macro   0x00027f2c      0x238 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
- .debug_macro   0x00028164      0x229 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
- .debug_macro   0x0002838d      0x242 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
- .debug_macro   0x000285cf      0x246 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028815       0x5e CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028873       0x94 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028907       0x57 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0002895e       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0002896e       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0002897e       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x0002898e       0x35 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x000289c3      0x12c CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028aef       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028aff      0x241 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028d40       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028d50      0x189 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028ed9       0x16 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028eef       0xce CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
- .debug_macro   0x00028fbd       0xf5 CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x000290b2      0x23b CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
- .debug_macro   0x000292ed      0x229 CMakeFiles/BSP.dir/Core/Src/system_stm32f7xx.c.obj
- .debug_macro   0x00029516      0x1ee CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_macro   0x00029704      0x10e CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_macro   0x00029812       0x8d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_macro   0x0002989f       0x16 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_macro   0x000298b5       0x91 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_macro   0x00029946      0x193 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_macro   0x00029ad9      0x21d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_macro   0x00029cf6       0x16 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_macro   0x00029d0c       0x87 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_macro   0x00029d93      0x347 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_macro   0x0002a0da       0x10 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_macro   0x0002a0ea      0x1e8 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
- .debug_macro   0x0002a2d2       0x97 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
- .debug_macro   0x0002a369      0x24e CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_macro   0x0002a5b7       0x10 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_macro   0x0002a5c7       0xd3 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_macro   0x0002a69a       0x8d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_macro   0x0002a727       0x9a CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_macro   0x0002a7c1      0x217 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c.obj
- .debug_macro   0x0002a9d8      0x1ba CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_macro   0x0002ab92      0x24d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
- .debug_macro   0x0002addf      0x22a CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
- .debug_macro   0x0002b009      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
- .debug_macro   0x0002b232      0x22f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
- .debug_macro   0x0002b461      0x235 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
- .debug_macro   0x0002b696      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
- .debug_macro   0x0002b8bf      0x247 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
- .debug_macro   0x0002bb06      0x24d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
- .debug_macro   0x0002bd53      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
- .debug_macro   0x0002bf7c      0x22a CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
- .debug_macro   0x0002c1a6      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
- .debug_macro   0x0002c3cf      0x246 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
- .debug_macro   0x0002c615      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
- .debug_macro   0x0002c83e      0x111 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
- .debug_macro   0x0002c94f      0xb9e CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
- .debug_macro   0x0002d4ed       0x34 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
- .debug_macro   0x0002d521      0x17b CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
- .debug_macro   0x0002d69c       0x43 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
- .debug_macro   0x0002d6df      0x364 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
- .debug_macro   0x0002da43       0x35 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
- .debug_macro   0x0002da78      0x13a CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp.obj
- .debug_macro   0x0002dbb2      0x20f CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
- .debug_macro   0x0002ddc1       0x1c CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
- .debug_macro   0x0002dddd       0x16 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
- .debug_macro   0x0002ddf3      0x137 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
- .debug_macro   0x0002df2a      0x17f CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
+ .debug_macro   0x00026ed8       0xee CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
+ .debug_macro   0x00026fc6      0x4b4 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x0002747a      0x158 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x000275d2       0x66 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027638       0x74 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x000276ac       0xdd CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027789      0x341 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027aca       0x10 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027ada       0x16 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027af0       0x16 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027b06       0x29 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027b2f       0x1c CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027b4b       0x10 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027b5b       0x10 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027b6b       0x1c CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027b87       0x52 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027bd9       0x22 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027bfb       0x10 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027c0b       0x52 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027c5d       0xd5 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027d32       0x1c CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027d4e       0x3d CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027d8b       0x16 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027da1      0x16f CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027f10       0x22 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+ .debug_macro   0x00027f32      0x238 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+ .debug_macro   0x0002816a      0x229 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
+ .debug_macro   0x00028393      0x242 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
+ .debug_macro   0x000285d5      0x246 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0002881b       0x5e CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028879       0x94 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x0002890d       0x57 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028964       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028974       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028984       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028994       0x35 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x000289c9      0x12c CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028af5       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028b05      0x241 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028d46       0x10 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028d56      0x189 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028edf       0x16 CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028ef5       0xce CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_macro   0x00028fc3       0xf5 CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x000290b8      0x23b CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
+ .debug_macro   0x000292f3      0x229 CMakeFiles/BSP.dir/Core/Src/system_stm32f7xx.c.obj
+ .debug_macro   0x0002951c      0x1ee CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_macro   0x0002970a      0x10e CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_macro   0x00029818       0x8d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_macro   0x000298a5       0x16 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_macro   0x000298bb       0x91 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_macro   0x0002994c      0x193 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_macro   0x00029adf      0x21d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_macro   0x00029cfc       0x16 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_macro   0x00029d12       0x87 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_macro   0x00029d99      0x347 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_macro   0x0002a0e0       0x10 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_macro   0x0002a0f0      0x1e8 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_macro   0x0002a2d8       0x97 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_macro   0x0002a36f      0x24e CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_macro   0x0002a5bd       0x10 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_macro   0x0002a5cd       0xd3 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_macro   0x0002a6a0       0x8d CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_macro   0x0002a72d       0x9a CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_macro   0x0002a7c7      0x217 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c.obj
+ .debug_macro   0x0002a9de      0x1ba CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_macro   0x0002ab98      0x24d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+ .debug_macro   0x0002ade5      0x22a CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+ .debug_macro   0x0002b00f      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+ .debug_macro   0x0002b238      0x22f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+ .debug_macro   0x0002b467      0x235 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
+ .debug_macro   0x0002b69c      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
+ .debug_macro   0x0002b8c5      0x247 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+ .debug_macro   0x0002bb0c      0x24d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+ .debug_macro   0x0002bd59      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+ .debug_macro   0x0002bf82      0x22a CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+ .debug_macro   0x0002c1ac      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+ .debug_macro   0x0002c3d5      0x246 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+ .debug_macro   0x0002c61b      0x229 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
+ .debug_macro   0x0002c844      0x111 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_macro   0x0002c955      0xb9e CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_macro   0x0002d4f3       0x34 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_macro   0x0002d527      0x17b CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_macro   0x0002d6a2       0x43 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_macro   0x0002d6e5      0x364 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_macro   0x0002da49       0x35 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_macro   0x0002da7e      0x13a CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp.obj
+ .debug_macro   0x0002dbb8      0x20f CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
+ .debug_macro   0x0002ddc7       0x1c CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
+ .debug_macro   0x0002dde3       0x16 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
+ .debug_macro   0x0002ddf9      0x137 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
+ .debug_macro   0x0002df30      0x17f CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
 
 .debug_line     0x00000000    0x1dfd1
  .debug_line    0x00000000      0x751 CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
@@ -8958,74 +8958,74 @@ LOAD c:/sysgcc/arm-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+dp/hard\
  .debug_line    0x0001d3a3      0x715 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
  .debug_line    0x0001dab8      0x519 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
 
-.debug_str      0x00000000   0x1124dd
- .debug_str     0x00000000    0xfeb08 CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
-                              0xff20c (size before relaxing)
- .debug_str     0x000feb08     0x5772 CMakeFiles/BSP.dir/Core/Src/main.c.obj
-                             0x104b53 (size before relaxing)
- .debug_str     0x0010427a      0x368 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
-                              0xfba19 (size before relaxing)
- .debug_str     0x001045e2       0xbb CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
+.debug_str      0x00000000   0x1124f4
+ .debug_str     0x00000000    0xfeb1f CMakeFiles/BSP.dir/Core/Src/freertos.c.obj
+                              0xff223 (size before relaxing)
+ .debug_str     0x000feb1f     0x5772 CMakeFiles/BSP.dir/Core/Src/main.c.obj
+                             0x104b6a (size before relaxing)
+ .debug_str     0x00104291      0x368 CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_msp.c.obj
+                              0xfba30 (size before relaxing)
+ .debug_str     0x001045f9       0xbb CMakeFiles/BSP.dir/Core/Src/stm32f7xx_hal_timebase_tim.c.obj
                               0xfac21 (size before relaxing)
- .debug_str     0x0010469d       0xdf CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
-                              0xfa82d (size before relaxing)
- .debug_str     0x0010477c     0x14ae CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x001046b4       0xdf CMakeFiles/BSP.dir/Core/Src/stm32f7xx_it.c.obj
+                              0xfa844 (size before relaxing)
+ .debug_str     0x00104793     0x14ae CMakeFiles/BSP.dir/Core/Src/syscalls.c.obj
                                0x876f (size before relaxing)
- .debug_str     0x00105c2a       0x71 CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x00105c41       0x71 CMakeFiles/BSP.dir/Core/Src/sysmem.c.obj
                                0x5a28 (size before relaxing)
- .debug_str     0x00105c9b      0x1aa CMakeFiles/BSP.dir/Core/Src/system_stm32f7xx.c.obj
+ .debug_str     0x00105cb2      0x1aa CMakeFiles/BSP.dir/Core/Src/system_stm32f7xx.c.obj
                               0xfa0f6 (size before relaxing)
- .debug_str     0x00105e45       0x3c CMakeFiles/BSP.dir/Core/Startup/startup_stm32f767zitx.s.obj
+ .debug_str     0x00105e5c       0x3c CMakeFiles/BSP.dir/Core/Startup/startup_stm32f767zitx.s.obj
                                  0x72 (size before relaxing)
- .debug_str     0x00105e81      0xd0e CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_str     0x00105e98      0xd0e CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
                                0xb4f1 (size before relaxing)
- .debug_str     0x00106b8f       0xc5 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_str     0x00106ba6       0xc5 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
                                0xa164 (size before relaxing)
- .debug_str     0x00106c54     0x107e CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_str     0x00106c6b     0x107e CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
                                0xba77 (size before relaxing)
- .debug_str     0x00107cd2     0x13cb CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_str     0x00107ce9     0x13cb CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
                                0xda79 (size before relaxing)
- .debug_str     0x0010909d      0x661 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_str     0x001090b4      0x661 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
                                0xc410 (size before relaxing)
- .debug_str     0x001096fe     0x14ce CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_str     0x00109715     0x14ce CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
                                0xe1e1 (size before relaxing)
- .debug_str     0x0010abcc      0x788 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c.obj
+ .debug_str     0x0010abe3      0x788 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1/port.c.obj
                                0x99d7 (size before relaxing)
- .debug_str     0x0010b354      0x257 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_str     0x0010b36b      0x257 CMakeFiles/BSP.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
                                0xa957 (size before relaxing)
- .debug_str     0x0010b5ab      0x3f3 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
+ .debug_str     0x0010b5c2      0x3f3 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c.obj
                               0xfaae7 (size before relaxing)
- .debug_str     0x0010b99e      0x294 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
+ .debug_str     0x0010b9b5      0x294 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c.obj
                               0xfa5a1 (size before relaxing)
- .debug_str     0x0010bc32      0x37f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
+ .debug_str     0x0010bc49      0x37f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c.obj
                               0xfaae6 (size before relaxing)
- .debug_str     0x0010bfb1      0x11b CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
+ .debug_str     0x0010bfc8      0x11b CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c.obj
                               0xfa1b4 (size before relaxing)
- .debug_str     0x0010c0cc      0x583 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
+ .debug_str     0x0010c0e3      0x583 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd.c.obj
                               0xfa851 (size before relaxing)
- .debug_str     0x0010c64f      0x173 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
+ .debug_str     0x0010c666      0x173 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pcd_ex.c.obj
                               0xfa414 (size before relaxing)
- .debug_str     0x0010c7c2      0x2cb CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
+ .debug_str     0x0010c7d9      0x2cb CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c.obj
                               0xfa397 (size before relaxing)
- .debug_str     0x0010ca8d      0x27b CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
+ .debug_str     0x0010caa4      0x27b CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c.obj
                               0xfa44a (size before relaxing)
- .debug_str     0x0010cd08      0x16f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
+ .debug_str     0x0010cd1f      0x16f CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c.obj
                               0xfa3c8 (size before relaxing)
- .debug_str     0x0010ce77      0xdc9 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
+ .debug_str     0x0010ce8e      0xdc9 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim.c.obj
                               0xfb367 (size before relaxing)
- .debug_str     0x0010dc40      0x653 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
+ .debug_str     0x0010dc57      0x653 CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_tim_ex.c.obj
                               0xfac2b (size before relaxing)
- .debug_str     0x0010e293      0x86d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
+ .debug_str     0x0010e2aa      0x86d CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c.obj
                               0xfad30 (size before relaxing)
- .debug_str     0x0010eb00      0x6cb CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
+ .debug_str     0x0010eb17      0x6cb CMakeFiles/BSP.dir/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_ll_usb.c.obj
                               0xfa98f (size before relaxing)
- .debug_str     0x0010f1cb      0xb6d CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
+ .debug_str     0x0010f1e2      0xb6d CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/FastSemihosting.cpp.obj
                                0x67a7 (size before relaxing)
- .debug_str     0x0010fd38     0x1d69 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp.obj
+ .debug_str     0x0010fd4f     0x1d69 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/InstrumentingProfiler.cpp.obj
                                0x8267 (size before relaxing)
- .debug_str     0x00111aa1      0x681 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
+ .debug_str     0x00111ab8      0x681 CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/TestResourceManager.cpp.obj
                                0x85bb (size before relaxing)
- .debug_str     0x00112122      0x3bb CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
+ .debug_str     0x00112139      0x3bb CMakeFiles/BSP_EFP_Profiler.dir/C_/Users/volod/AppData/Local/VisualGDB/EmbeddedEFPs/Profiler/ProfilerRTOS_FreeRTOS.c.obj
                                0x9608 (size before relaxing)
 
 .comment        0x00000000       0x49

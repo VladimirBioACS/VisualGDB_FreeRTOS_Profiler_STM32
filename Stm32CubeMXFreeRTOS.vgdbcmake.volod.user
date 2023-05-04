@@ -25,7 +25,9 @@
           </SavedRealTimeWatch>
         </Watches>
       </ImplicitPreset>
-      <ActiveDynamicPresets />
+      <ActiveDynamicPresets>
+        <string>com.sysprogs.rtos.threads</string>
+      </ActiveDynamicPresets>
       <StopOnOverflow>false</StopOnOverflow>
     </RealTimeWatchPreferences>
     <e />
@@ -494,7 +496,7 @@
         <State>
           <IsFavorite>false</IsFavorite>
           <IsLive>false</IsLive>
-          <LastUsed>133277052810295152</LastUsed>
+          <LastUsed>133277082383046396</LastUsed>
         </State>
       </HardwareRegisterRecord>
     </HardwareRegisters>

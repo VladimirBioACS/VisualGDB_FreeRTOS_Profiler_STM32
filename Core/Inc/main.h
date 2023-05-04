@@ -99,6 +99,7 @@ extern "C" {
 #define FREERTOS_PROFILER  (0)
 #define SWO_DEBUG  		   (0)
 #define SYSPROG_PROFILER   (1)
+#define STM32_F7_TIMER_SRC (1)
 
 #if (SWO_DEBUG == 1)
 #define DBG(...)    printf(__VA_ARGS__);\
