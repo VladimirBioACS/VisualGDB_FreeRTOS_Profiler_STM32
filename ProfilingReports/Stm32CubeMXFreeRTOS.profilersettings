@@ -7,34 +7,118 @@
     </Sampling>
     <Instrumentation>
       <IncludedFunctions>
+        <string>__aeabi_d2lz</string>
+        <string>__aeabi_d2ulz</string>
+        <string>__aeabi_l2d</string>
         <string>__aeabi_ldiv0</string>
         <string>__aeabi_uldivmod</string>
+        <string>__any_on</string>
+        <string>__ascii_mbtowc</string>
+        <string>__ascii_wctomb</string>
+        <string>__assert_func</string>
+        <string>__b2d</string>
+        <string>__copybits</string>
+        <string>__cvt</string>
+        <string>__d2b</string>
         <string>__do_global_dtors_aux</string>
         <string>__errno</string>
-        <string>__libc_fini_array</string>
+        <string>__exponent</string>
+        <string>__gethex</string>
+        <string>__hexdig_fun</string>
+        <string>__hexnan</string>
+        <string>__hi0bits</string>
+        <string>__i2b</string>
+        <string>__itoa</string>
         <string>__libc_init_array</string>
+        <string>__lo0bits</string>
+        <string>__lshift</string>
         <string>__malloc_lock</string>
         <string>__malloc_unlock</string>
+        <string>__match</string>
+        <string>__mcmp</string>
+        <string>__mdiff</string>
+        <string>__multadd</string>
+        <string>__multiply</string>
         <string>__NVIC_EnableIRQ</string>
+        <string>__NVIC_GetPendingIRQ</string>
         <string>__NVIC_GetPriorityGrouping</string>
         <string>__NVIC_SetPriority</string>
         <string>__NVIC_SetPriorityGrouping</string>
-        <string>__register_exitproc</string>
+        <string>__pow5mult</string>
+        <string>__ratio</string>
         <string>__retarget_lock_acquire_recursive</string>
+        <string>__retarget_lock_init_recursive</string>
         <string>__retarget_lock_release_recursive</string>
+        <string>__s2b</string>
+        <string>__sclose</string>
+        <string>__sflush_r</string>
+        <string>__sfmoreglue</string>
+        <string>__sfp</string>
+        <string>__sfp_lock_acquire</string>
+        <string>__sfp_lock_release</string>
+        <string>__sfputc_r</string>
+        <string>__sfputs_r</string>
+        <string>__sinit</string>
+        <string>__sinit_lock_acquire</string>
+        <string>__sinit_lock_release</string>
+        <string>__smakebuf_r</string>
+        <string>__sread</string>
+        <string>__sseek</string>
+        <string>__ssputs_r</string>
+        <string>__swbuf_r</string>
+        <string>__swhatbuf_r</string>
+        <string>__swrite</string>
+        <string>__swsetup_r</string>
         <string>__udivmoddi4</string>
+        <string>__ulp</string>
         <string>__utoa</string>
-        <string>_fini</string>
+        <string>_Balloc</string>
+        <string>_Bfree</string>
+        <string>_calloc_r</string>
+        <string>_cleanup_r</string>
+        <string>_close</string>
+        <string>_close_r</string>
+        <string>_dtoa_r</string>
+        <string>_exit</string>
+        <string>_fflush_r</string>
         <string>_free_r</string>
+        <string>_fstat</string>
+        <string>_fstat_r</string>
+        <string>_fwalk_reent</string>
+        <string>_getpid</string>
+        <string>_getpid_r</string>
         <string>_init</string>
-        <string>_malloc_trim_r</string>
+        <string>_isatty</string>
+        <string>_isatty_r</string>
+        <string>_kill</string>
+        <string>_kill_r</string>
+        <string>_localeconv_r</string>
+        <string>_lseek</string>
+        <string>_lseek_r</string>
+        <string>_malloc_r</string>
+        <string>_malloc_usable_size_r</string>
+        <string>_printf_common</string>
+        <string>_printf_float</string>
+        <string>_printf_i</string>
+        <string>_raise_r</string>
+        <string>_read</string>
+        <string>_read_r</string>
+        <string>_realloc_r</string>
         <string>_reclaim_reent</string>
         <string>_sbrk</string>
         <string>_sbrk_r</string>
+        <string>_strtod_l</string>
+        <string>_strtod_r</string>
+        <string>_strtol_l.constprop.0</string>
+        <string>_strtol_r</string>
+        <string>_svfprintf_r</string>
+        <string>_vfprintf_r</string>
+        <string>_write</string>
+        <string>_write_r</string>
+        <string>abort</string>
         <string>ADC_Init</string>
         <string>ADC_IRQHandler</string>
         <string>adcReadValueTask</string>
-        <string>atexit</string>
         <string>BusFault_Handler</string>
         <string>CAN1_RX0_IRQHandler</string>
         <string>CAN1_RX1_IRQHandler</string>
@@ -85,6 +169,7 @@
         <string>EXTI3_IRQHandler</string>
         <string>EXTI4_IRQHandler</string>
         <string>EXTI9_5_IRQHandler</string>
+        <string>fiprintf</string>
         <string>FLASH_IRQHandler</string>
         <string>FMC_IRQHandler</string>
         <string>FPU_IRQHandler</string>
@@ -109,6 +194,7 @@
         <string>HAL_InitTick</string>
         <string>HAL_MspInit</string>
         <string>HAL_NVIC_EnableIRQ</string>
+        <string>HAL_NVIC_GetPendingIRQ</string>
         <string>HAL_NVIC_SetPriority</string>
         <string>HAL_NVIC_SetPriorityGrouping</string>
         <string>HAL_PCD_Init</string>
@@ -159,14 +245,18 @@
         <string>InstrumentingProfilerInitialized</string>
         <string>itoa</string>
         <string>JPEG_IRQHandler</string>
+        <string>L_shift</string>
         <string>ledBlinkBlue</string>
         <string>LPTIM1_IRQHandler</string>
         <string>LTDC_ER_IRQHandler</string>
         <string>LTDC_IRQHandler</string>
         <string>main</string>
+        <string>malloc</string>
         <string>MDIOS_IRQHandler</string>
+        <string>memchr</string>
         <string>memcpy</string>
         <string>MemManage_Handler</string>
+        <string>memmove</string>
         <string>memset</string>
         <string>MX_ADC1_Init</string>
         <string>MX_ADC2_Init</string>
@@ -175,6 +265,8 @@
         <string>MX_TIM13_Init</string>
         <string>MX_USART3_UART_Init</string>
         <string>MX_USB_OTG_FS_PCD_Init</string>
+        <string>nan</string>
+        <string>nanf</string>
         <string>NMI_Handler</string>
         <string>NVIC_EncodePriority</string>
         <string>osDelay</string>
@@ -231,15 +323,22 @@
         <string>pwmLedBrightnessTask</string>
         <string>pxPortInitialiseStack</string>
         <string>QUADSPI_IRQHandler</string>
+        <string>quorem</string>
+        <string>raise</string>
         <string>RCC_IRQHandler</string>
         <string>readTempTask</string>
+        <string>ReferenceFreeRTOSSymbols</string>
         <string>_ZL36ReportRealTimeAnalysisBufferOverflowv</string>
+        <string>_Z43RequestBlockingProcessingViaFastSemihostingv</string>
         <string>RNG_IRQHandler</string>
+        <string>rshift</string>
         <string>RTC_Alarm_IRQHandler</string>
         <string>RTC_WKUP_IRQHandler</string>
         <string>rtosRuntimeStatsTask</string>
+        <string>_ZL30RunBlockingFastSemihostingCall23BlockingResourceRequestjjj</string>
         <string>SAI1_IRQHandler</string>
         <string>SAI2_IRQHandler</string>
+        <string>sbrk_aligned</string>
         <string>SDMMC1_IRQHandler</string>
         <string>SDMMC2_IRQHandler</string>
         <string>SPDIF_RX_IRQHandler</string>
@@ -249,10 +348,14 @@
         <string>SPI4_IRQHandler</string>
         <string>SPI5_IRQHandler</string>
         <string>SPI6_IRQHandler</string>
+        <string>sprintf</string>
         <string>StartBlinkyTask</string>
         <string>StartDefaultTask</string>
+        <string>std</string>
         <string>strcpy</string>
         <string>strlen</string>
+        <string>strncmp</string>
+        <string>sulp</string>
         <string>SVC_Handler</string>
         <string>SVC_Setup</string>
         <string>SystemClock_Config</string>
@@ -281,6 +384,7 @@
         <string>TIM8_CC_IRQHandler</string>
         <string>TIM8_TRG_COM_TIM14_IRQHandler</string>
         <string>TIM8_UP_TIM13_IRQHandler</string>
+        <string>TRMReadStdin</string>
         <string>UART_AdvFeatureConfig</string>
         <string>UART_CheckIdleState</string>
         <string>UART_SetConfig</string>
@@ -369,5 +473,5 @@
     <Mode>Instrumentation</Mode>
   </Embedded>
   <SessionFileDirectory>C:\projects\Stm32CubeMXFreeRTOS\ProfilingReports\Stm32CubeMXFreeRTOS</SessionFileDirectory>
-  <SessionName>04.05.2023 20:48:11</SessionName>
+  <SessionName>05.05.2023 3:26:18</SessionName>
 </SysprogsProfilerSettings>

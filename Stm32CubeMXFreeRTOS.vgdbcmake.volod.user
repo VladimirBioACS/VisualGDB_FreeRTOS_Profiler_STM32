@@ -14,16 +14,7 @@
     <RealTimeWatchPreferences>
       <Presets />
       <ImplicitPreset>
-        <Watches>
-          <SavedRealTimeWatch>
-            <Request xsi:type="ByName">
-              <IsPaused>false</IsPaused>
-              <Name>HAL_GPIO_TogglePin</Name>
-            </Request>
-            <Height>0</Height>
-            <DataSourceName>Timing diagram</DataSourceName>
-          </SavedRealTimeWatch>
-        </Watches>
+        <Watches />
       </ImplicitPreset>
       <ActiveDynamicPresets>
         <string>com.sysprogs.rtos.threads</string>
@@ -496,7 +487,7 @@
         <State>
           <IsFavorite>false</IsFavorite>
           <IsLive>false</IsLive>
-          <LastUsed>133277082383046396</LastUsed>
+          <LastUsed>133277201376049672</LastUsed>
         </State>
       </HardwareRegisterRecord>
     </HardwareRegisters>
